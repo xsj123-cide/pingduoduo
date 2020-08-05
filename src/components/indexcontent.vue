@@ -54,7 +54,7 @@ export default {
         width: .6rem;
     }
     span{
-        font-size: .1rem;
+        font-size: .17rem;
     }
 }
 }

@@ -1,15 +1,20 @@
 <template>
     <div class="div">
-       <search></search>
-       <div class="navbar">
-           <ul class="">
-               <li :class="[itemindex==index? 'active':'']" v-for="(item,index) in infos.navbar" :key="index" @click="navbarindex(index)">{{item}}</li>
-           </ul>
-       </div>
-       <div class="line"></div>
+        <div class="_2_bR-vs3">
+            <search></search>
+            <div class="navbar">
+                <ul class="">
+                    <li :class="[itemindex==index? 'active':'']" v-for="(item,index) in infos.navbar" :key="index" @click="navbarindex(index)">{{item}}</li>
+                </ul>
+            </div>
+            <div class="line"></div>
+        </div>
+       
+       
        <div class="main">
             <indexcontent :title="infos.navbar[itemindex]" :info="infos.content"></indexcontent>
             <indexmiddle></indexmiddle>
+            
        </div>
        
     </div>
@@ -42,6 +47,13 @@ export default {
 }
 </script>
 <style lang="less" scoped>
+._2_bR-vs3 {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
 .navbar {
     background-color: white;
     height: .6rem;
