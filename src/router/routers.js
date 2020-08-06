@@ -4,6 +4,7 @@ Vue.use(VueRouter)
 
 import Index from '../view/index/index.vue';
 import guanz from '../view/guanz/guanz.vue';
+import personal from '../view/personal/personal.vue';
 const routes=[
     {
         path:"/index",
@@ -11,11 +12,15 @@ const routes=[
     },
     {
         path:"/",
-        redirect:Index
+        redirect:'/index'
     },
     {
         path:"/guanz",
         component:guanz
+    },
+    {
+        path:'/personal',
+        component:personal
     }
 ]
 export default new VueRouter({

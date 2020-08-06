@@ -53,6 +53,7 @@ export default {
     span:first-child {
         color: black;
         font-weight: 800;
+        padding-right: .05rem;
     }
     span:nth-child(2) {
         flex:3;
@@ -76,13 +77,15 @@ export default {
         display: flex;
         flex-direction: column; 
         align-items: center;   
+        white-space: nowrap;
+        line-height: .4rem;
         img {
             width: 100%;
             border-radius: .09rem;
         }
         span {
-            margin-top: .1rem;
-            font-size: .2rem;
+            margin-top: 0rem;
+            font-size: .15rem;
         }
         span:nth-child(3) {
             color: red;

@@ -120,7 +120,44 @@ let indexdata = {
             ]
         },
         
-    }
+    },
+    productlist:[
+        {
+            productid:'1',
+            mainimg:'https://t00img.yangkeduo.com/t11img/images/2018-07-05/891f3d6efa14efb896454a5293590c72.jpeg?imageView2/2/w/312/q/80',
+            text:'客厅家具简易实木仿红木沙发电视柜茶几双人三人单人小户型沙发',
+            price:'1580',
+            pinged:2222,
+        },
+        {
+            productid:'2',
+            text:'客厅家具简易实木仿红木沙发电视柜茶几双人三人单人小户型沙发',
+            mainimg:'https://t00img.yangkeduo.com/t11img/images/2018-07-05/891f3d6efa14efb896454a5293590c72.jpeg?imageView2/2/w/312/q/80',
+            price:'1580',
+            pinged:2222,
+        },
+        {
+            productid:'3',
+            text:'客厅家具简易实木仿红木沙发电视柜茶几双人三人单人小户型沙发',
+            mainimg:'https://t00img.yangkeduo.com/t11img/images/2018-07-05/891f3d6efa14efb896454a5293590c72.jpeg?imageView2/2/w/312/q/80',
+            price:'1580',
+            pinged:2222,
+        },
+        {
+            productid:'4',
+            text:'客厅家具简易实木仿红木沙发电视柜茶几双人三人单人小户型沙发',
+            mainimg:'https://t00img.yangkeduo.com/t11img/images/2018-07-05/891f3d6efa14efb896454a5293590c72.jpeg?imageView2/2/w/312/q/80',
+            price:'1580',
+            pinged:2222,
+        },
+        {
+            productid:'5',
+            text:'客厅家具简易实木仿红木沙发电视柜茶几双人三人单人小户型沙发',
+            mainimg:'https://t00img.yangkeduo.com/t11img/images/2018-07-05/891f3d6efa14efb896454a5293590c72.jpeg?imageView2/2/w/312/q/80',
+            price:'1580',
+            pinged:2222,
+        }
+    ]
 }
 module.exports={
     get() {

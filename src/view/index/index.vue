@@ -14,7 +14,7 @@
        <div class="main">
             <indexcontent :title="infos.navbar[itemindex]" :info="infos.content"></indexcontent>
             <indexmiddle></indexmiddle>
-            
+            <productlist :productlist="infos.productlist"></productlist>
        </div>
        
     </div>
@@ -23,6 +23,7 @@
 import search from '../../components/search'
 import indexcontent from '../../components/indexcontent'
 import indexmiddle from '../../components/indexmiddle'
+import productlist from '../../components/productlist'
 import getdata from '../../rest/index'
 export default {
     data() {
@@ -34,7 +35,8 @@ export default {
     components: {
     search,
     indexcontent,
-    indexmiddle
+    indexmiddle,
+    productlist
   },
   created() {
       this.infos = getdata.get()

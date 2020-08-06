@@ -27,7 +27,7 @@ let tabbar = [
         img:"https://t13img.yangkeduo.com/cart/2018-09-02/8d22d9ba476f49fbebb66c8cf0d0aaab.png?imageView2/q/70/format/webp",
         activeimg:'https://t13img.yangkeduo.com/cart/2018-09-02/8d4c80854ebcc4c34628c15f1581527c.png?imageView2/q/70/format/webp',
         text:'个人中心',
-        link:'/index'
+        link:'/personal'
     }
 ]
 
